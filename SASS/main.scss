@@ -1,3 +1,7 @@
+@import "base/reset";
+@import "base/container";
+@import "layout/body";
+@import "layout/portfolio";
 @import "layout/header";
 @import "layout/section-hero";
 @import "layout/section-features";
@@ -5,6 +9,4 @@
 @import "layout/section-team";
 @import "layout/client-para";
 @import "layout/footer";
-@import "layout/section.clients";
-@import "layout/portfolio";
-@import "layout/reset";
+@import "layout/section-clients";

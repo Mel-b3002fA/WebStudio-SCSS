@@ -1,23 +1,63 @@
-.header-wrap {
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Roboto;
+  line-height: normal;
+}
+
+use {
+  margin: 0px;
+  padding: 0px;
+}
+
+.portfolio-div {
+  margin: 30px;
+}
+
+.portfolio-list {
   display: flex;
-  gap: 93px;
+  flex-wrap: wrap;
   align-items: center;
-}
-
-.nav-list {
-  display: flex;
-  gap: 50px;
-}
-
-.nav-list-item {
-  color: #212121;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.28px;
-}
-
-.nav-list-item:hover {
-  color: #2196F3;
+  -moz-column-count: 3;
+       column-count: 3;
+  margin-bottom: 94px;
 }
 
 .filter-list-btn:hover {
@@ -40,6 +80,107 @@
   line-height: 26px;
   letter-spacing: 0.48px;
   margin-bottom: 50px;
+}
+
+.portfolio-list-fish {
+  display: flex;
+  align-items: end;
+}
+
+.portfolio-list-item {
+  border: 1px solid #EEE;
+  margin-bottom: 30px;
+  height: 404px;
+  width: 370px;
+  overflow: hidden;
+}
+
+.portfolio-list-item:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.portfolio-list-wrap1 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.portfolio-list-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: #212121;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 1.08px;
+}
+
+.portfolio-list-desc {
+  color: #757575;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.48px;
+}
+
+.portfolio-list-wrap {
+  padding: 24px 42px 24px 42px;
+  z-index: 1;
+}
+
+.overlay {
+  background: rgba(33, 150, 243, 0.9);
+  width: 100%;
+  height: 100%;
+  transform: translatey(100%);
+  transition: transform 250ms ease-in-out;
+  z-index: 2;
+}
+
+.overlay2 {
+  position: relative;
+  z-index: 2;
+  background: rgba(47, 48, 58, 0.8);
+  padding: 27px 102px 27px 102px;
+  fill: #808080;
+}
+
+.box:hover {
+  position: relative;
+  overflow: hidden;
+}
+
+.box:hover .overlay {
+  transform: translatey(0);
+}
+
+.header-wrap {
+  display: flex;
+  gap: 93px;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 50px;
+}
+
+.nav-list-item {
+  color: #212121;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+}
+
+.nav-list-item:hover {
+  color: #2196F3;
 }
 
 .contacts-list {
@@ -315,6 +456,8 @@
 .team-social-list {
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin: 28px 0;
 }
 
 .section-team-title {
@@ -445,6 +588,10 @@
   padding: 16px 2px 16px 2px;
 }
 
+.section-clients {
+  padding-bottom: 40px;
+}
+
 .client-para {
   color: #212121;
   text-align: center;
@@ -499,96 +646,4 @@ svg:hover {
   padding: 2px;
   justify-content: space-around;
   margin: 0px 20px 0px 20px;
-}
-
-.portfolio-div {
-  margin: 30px;
-}
-
-.portfolio-list {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  -moz-column-count: 3;
-       column-count: 3;
-  margin-bottom: 94px;
-}
-
-.portfolio-list-fish {
-  display: flex;
-  align-items: end;
-}
-
-.portfolio-list-item {
-  border: 1px solid #EEE;
-  margin-bottom: 30px;
-  height: 404px;
-  width: 370px;
-  overflow: hidden;
-}
-
-.portfolio-list-item:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.portfolio-list-wrap1 {
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
-}
-
-.portfolio-list-title {
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 36px;
-  letter-spacing: 0.06em;
-  text-align: left;
-  color: #212121;
-  font-family: Roboto;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 36px;
-  letter-spacing: 1.08px;
-}
-
-.portfolio-list-desc {
-  color: #757575;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px;
-  letter-spacing: 0.48px;
-}
-
-.portfolio-list-wrap {
-  padding: 24px 42px 24px 42px;
-  z-index: 1;
-}
-
-.overlay {
-  background: rgba(33, 150, 243, 0.9);
-  width: 100%;
-  height: 100%;
-  transform: translatey(100%);
-  transition: transform 250ms ease-in-out;
-  z-index: 2;
-}
-
-.overlay2 {
-  position: relative;
-  z-index: 2;
-  background: rgba(47, 48, 58, 0.8);
-  padding: 27px 102px 27px 102px;
-  fill: #808080;
-}
-
-.box:hover {
-  position: relative;
-  overflow: hidden;
-}
-
-.box:hover .overlay {
-  transform: translatey(0);
 }/*# sourceMappingURL=main.css.map */
