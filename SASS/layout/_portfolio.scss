@@ -39,23 +39,17 @@ margin-bottom: 50px;
  .portfolio-list-item{
     border: 1px solid #EEE;
  margin-bottom: 30px;
- height: 404px;
- width: 370px;
- overflow: hidden;
+/* height: 404px; */
+/*  width: 370px; */
+/*  overflow: hidden; */ 
  }
 
  .portfolio-list-item:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
+}
  
- .portfolio-list-wrap1{
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
- }
  
  .portfolio-list-title{
- font-size: 18px;
  font-weight: 700;
  line-height: 36px;
  letter-spacing: 0.06em;
@@ -79,36 +73,39 @@ margin-bottom: 50px;
  line-height: 30px;
  letter-spacing: 0.48px;
  }
- 
- .portfolio-list-wrap{
-    padding: 24px 42px 24px 42px;
-    z-index: 1;
+
+ .boxing{
+   position: relative;
+   overflow: hidden;
  }
+ 
 
  .overlay{
+   position: absolute;
+   top: 0;
+   left: 0 ;
     background: rgba(33, 150, 243, 0.90);
     width: 100%;
     height: 100%;
    transform: translatey(100%);
    transition: transform 250ms ease-in-out;
-   z-index: 2;
  }
  
- .overlay2{
+
+ /* .overlay2{
     position: relative;
     z-index: 2;
     background: rgba(47, 48, 58, 0.80);
     padding: 27px 102px 27px 102px;
     fill: #808080;
- }
+ } */
  
  
- .box:hover{
+ .box{
     position: relative;
     overflow: hidden;
  }
  
- .box:hover .overlay {
-    
+ .boxing:hover .overlay {
     transform: translatey(0);
   }

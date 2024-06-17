@@ -1,10 +1,13 @@
 .client-svg-list{
-    fill: #AFB1B8;
-    border: solid #AFB1B8 1px;
-    border-radius: 4px;
-    height: 70px;
-   padding: 16px 2px 16px 2px;
+ fill: #AFB1B8;
+   border: solid #AFB1B8 1px;
+   border-radius: 4px;
+   height: 70px;
+   padding: 20px 50px;
  
+   &:hover{
+     color: #2196F3;
+   }
  }
 
  .section-clients{
@@ -40,15 +43,8 @@
     margin-bottom: 94px;
  }
  
- 
- .client-cooler:hover{
- fill: #2196F3;
- }
- 
- .client-svg:hover{
-    fill: #2196F3;
-    color: #2196F3;
- }
+
+
 
  svg:hover{
     fill: #2196F3;

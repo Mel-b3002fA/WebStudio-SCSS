@@ -1,25 +1,89 @@
-ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
+html,
+body,
+p,
+ol,
+ul,
+li,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin: 0;
+padding: 0
 }
-a{
-    text-decoration: none;
-    color: currentColor;
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-size: 100%;
+font-weight: normal
+} */
+
+ul {
+list-style: none
 }
-h1,h2,h3,h4,h5,h6,p{
-    margin: 0;
+
+button,
+input,
+select {
+margin: 0
 }
-a{
-    text-decoration: none;
+
+*,
+*::before,
+*::after {
+box-sizing: border-box
 }
-button{
-    border: none;
-    cursor: pointer;
+
+img,
+video {
+display: block;
+height: auto;
+max-width: 100%
 }
-address{
-    font-style: normal;
+
+table {
+border-collapse: collapse;
+border-spacing: 0
 }
-img{
-    display: block;
+
+td,
+th {
+padding: 0
 }
+
+a {
+text-decoration: none;
+color: currentColor;
+}
+
+body {
+/* font-size: 22px; */
+}
+
+/** /контейнер для центрування контенту, розміри згідно макету/ */
+/* .container {
+margin-left: auto;
+margin-right: auto;
+padding-left: 15px;
+padding-right: 15px;
+width: 1200px;
+} */
+
+/** // візуально приховати елементи */
+/* .visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+padding: 0;
+overflow: hidden;
+border: 0;
+clip: rect(0 0 0 0);
+} */
