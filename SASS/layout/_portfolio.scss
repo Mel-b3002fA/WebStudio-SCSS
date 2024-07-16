@@ -1,5 +1,4 @@
 %buttonstyle{
-   border-style: solid black 1px;
    padding: 6px 22px;
    border-radius: 5px;
 }
@@ -8,13 +7,13 @@
 .portfolio-div{
     margin: 30px;
  }
- .portfolio-list{
+.portfolio-list{
     display: flex;
     flex-wrap: wrap;
   align-items: center;
-  column-count: 3;
+ gap: 30px;
   margin-bottom: 94px;
-  border-style: 1px solid black;
+
  
  }
  .filter-list-btn:hover{
@@ -41,8 +40,8 @@ margin-bottom: 50px;
     align-items: end;
  }
  .portfolio-list-item{
-    border: 1px solid #EEE;
- margin-bottom: 30px;
+    outline: 1px solid #EEE;
+    padding-bottom: 20px;
 /* height: 404px; */
 /*  width: 370px; */
 /*  overflow: hidden; */ 
@@ -76,6 +75,7 @@ margin-bottom: 50px;
  font-weight: 400;
  line-height: 30px;
  letter-spacing: 0.48px;
+ margin-left: 18px;
  }
 
  .boxing{
@@ -93,6 +93,14 @@ margin-bottom: 50px;
     height: 100%;
    transform: translatey(100%);
    transition: transform 250ms ease-in-out;
+   color: #FFF;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 155.556% */
+letter-spacing: 0.54px;
+padding: 63px 42px;
  }
  
 
