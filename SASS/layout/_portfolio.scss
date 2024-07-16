@@ -1,3 +1,10 @@
+%buttonstyle{
+   border-style: solid black 1px;
+   padding: 6px 22px;
+   border-radius: 5px;
+}
+
+
 .portfolio-div{
     margin: 30px;
  }
@@ -17,11 +24,7 @@
 
 
 .filter-list-btn{
-   padding-top: 6px;
-   padding-left: 22px;
-   padding-right:22px ;
-   padding-bottom: 6px;
-   border-radius: 5px;
+   @extend %buttonstyle;
    color: #212121;
 text-align: center;
 font-family: Roboto;

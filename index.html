@@ -62,44 +62,54 @@
         <section class="section-features">
             <div class="container">
             <ul class="features-list">
-                <li class="features-list-item-first">
-                    <svg height="70" width="65" class="features-img">
-                        <use href="./images/sprite.svg#icon-antenna-1-1"></use>
-                    </svg>
-                    
-                    <h2 class="features-list-title">УВАГА ДО ДЕТАЛЕЙ</h2>
-                    <p class="features-list-desc">
-                        Ідейні міркування, і навіть початок<br>
-                        повсякденної роботи з формування<br> 
-                        позиції.
-                    </p>
-                </li>
-                <li class="features-list-item-second">
-                    <svg height="70" width="65" class="features-img">
-                        <use href="./images/sprite.svg#icon-clock-1-1"></use>
-                    </svg>
-                    <h2 class="features-list-title">ПУНКТУАЛЬНІСТЬ</h2>
-                    <p class="features-list-desc">
-                        Завдання організації, особливо рамки<br>
-                        і місце навчання кадрів тягне у себе.
-                    </p>
-                </li>
-                <li class="features-list-item-third">
-                    <svg height="70" width="65" class="features-img">
-                        <use href="./images/sprite.svg#icon-diagram-1-1"></use>
-                    </svg>
-              
-                    <h2 class="features-list-title">ПЛАНУВАННЯ</h2>
-                    <p class="features-list-desc">
-                        Так само консультація з широким<br>
-                        активом значною мірою зумовлює.
-                    </p>
-                </li>
-            
                 <li class="features-list-item-fourth">
+                    <div  class=" features-list-item">
                     <svg height="70" width="65" class="features-img" fill="#000000">
                         <use href="./images/sprite.svg#icon-astronaut-1-1"></use>
                     </svg>
+                    </div>
+                    <h2 class="features-list-title">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
+                    <p class="features-list-desc">
+                        Значимість цих проблем настільки<br>
+                        очевидна, що реалізація планових<br>
+                        завдань.
+                    </p>
+                </li>
+
+                <li class="features-list-item-fourth">
+                    <div  class=" features-list-item">
+                    <svg height="70" width="65" class="features-img" fill="#000000">
+                        <use href="./images/sprite.svg#icon-astronaut-1-1"></use>
+                    </svg>
+                    </div>
+                    <h2 class="features-list-title">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
+                    <p class="features-list-desc">
+                        Значимість цих проблем настільки<br>
+                        очевидна, що реалізація планових<br>
+                        завдань.
+                    </p>
+                </li>
+
+                <li class="features-list-item-fourth">
+                    <div  class=" features-list-item">
+                    <svg height="70" width="65" class="features-img" fill="#000000">
+                        <use href="./images/sprite.svg#icon-astronaut-1-1"></use>
+                    </svg>
+                    </div>
+                    <h2 class="features-list-title">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
+                    <p class="features-list-desc">
+                        Значимість цих проблем настільки<br>
+                        очевидна, що реалізація планових<br>
+                        завдань.
+                    </p>
+                </li>
+                
+                <li class="features-list-item-fourth">
+                    <div  class=" features-list-item">
+                    <svg height="70" width="65" class="features-img" fill="#000000">
+                        <use href="./images/sprite.svg#icon-astronaut-1-1"></use>
+                    </svg>
+                    </div>
                     <h2 class="features-list-title">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
                     <p class="features-list-desc">
                         Значимість цих проблем настільки<br>
@@ -330,13 +340,53 @@
             </footer>
 
 <!--     ==============modal-window=============== -->
-        <div class="backdrop is-hidden">
-            <div data-modal class="modal">
-              <button class="btn" data-close-modal>Закрити</button>
-              <p>....</p>
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button class="modal-btn" data-close-modal>Закрити</button>
+                <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+            <form class="formular">
+                <label class="modal-label">
+                    Ім'я
+                    <input type="name" name="username" class="modal-input"/>
+                    <svg height="12" width="12">
+                        <use href="./images/sprite.svg#icon-login"></use>
+                    </svg>
+                  </label>
+                
+                  <label class="modal-label">
+                    Телефон
+                    <input type="tel" name="telephone" class="modal-input"/>
+                    <svg height="12" width="12">
+                        <use href="./images/sprite.svg#icon-call"></use>
+                    </svg>
+                </label>
+
+
+                <label class="modal-label">
+                    Пошта
+                    <input type="email" name="telephone" class="modal-input"/>
+                    <svg height="12" width="12">
+                        <use href="./images/sprite.svg#icon-send"></use>
+                    </svg>
+                </label>
+
+            
+
+            <label class="modal-label">
+                Коментар
+                <textarea name="comment" id="" placeholder="Введіть текст"  class="modal-input-special"></textarea>
+                   
+                <div class="checkbox-div">
+                <input type="checkbox">
+                    Погоджуюся з розсилкою та приймаю <a href="https://www.garnelio.de/">Умови договору</a>
+                </div>
+             </label>
+                  <button type="submit" class="submit-button">Відправити</button>
+            </form>
             </div>
           </div>
           <script src="./js/modal.js"></script>
+          
 </body>
 </html>
 

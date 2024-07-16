@@ -32,7 +32,99 @@
     min-width: 400px;
     min-height: 300px;
     padding: 15px;
-    background-color: skyblue;
+    background-color: #FFFFFF;
     transform: translate(-50%, -50%) scale(1);
     transition: opacity 500ms cubic-bezier(0.83, -0.08, 0.32, 1) 1000ms;
   }
+
+.modal-title{
+text-align: center;
+color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.6px;
+}
+
+.submit-button{
+  color: #FFF;
+
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.96px;
+background-color: #2196F3;
+border: none;
+
+margin-top: 30px;
+margin-bottom: 30px;
+
+}
+
+.checkbox-div{
+  display: flex;
+  justify-content: baseline;
+  margin-top: 10px;
+  gap: 4px;
+}
+
+.formular{
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-btn{
+  display: flex;
+}
+
+.modal-label{
+  display: flex;
+  flex-direction: column;
+  color: #757575;
+
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.12px;
+gap: 4px;
+margin-top: 10px;
+position: relative;
+}
+
+.modal-input{
+  height: 40px;
+  padding-left: 42px;
+}
+
+.modal-input:hover{
+outline: 1px solid #2196F3;
+}
+
+
+.modal-input:hover+svg, .modal-input:focus+svg{
+  fill: #2196F3;
+}
+
+
+.modal-label>svg{
+position: absolute;
+top: 31px;
+left: 15px;
+}
+
+.modal-input-special{
+height: 120px;
+padding: 12px 16px;
+}
+
+
+
+
