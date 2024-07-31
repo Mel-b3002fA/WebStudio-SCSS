@@ -1,16 +1,12 @@
 .footer{
     padding-bottom: 60px;
     padding-top: 60px;
- 
+    background-color: #2F303A;
+    display: flex;
+    padding-left: 215px;
+    padding-top: 80px;
  }
 
- .footer{
-    background-color: #2F303A;
-   display: flex;
-   
- }
- 
- 
  .footer-logo{
     color: #2196F3;
     font-family: Raleway;
@@ -46,7 +42,6 @@
  
  .footer-list{
     display: flex;
-  padding-top: 20px;
   gap: 10px;
  margin-left: 70px;
  column-count: 1;
@@ -93,7 +88,6 @@
 
 .address-list{
     padding: 10px;
-    margin-left: 100px;
  }
 
 
@@ -105,7 +99,6 @@
     color: white;
  }
  
- 
  .address{
     margin-top: 20px;
  }
@@ -116,12 +109,72 @@
 
  .footer-item{
    fill: white;
-   &:hover{
-      
-   }
 }
 
 .footer-list-class{
+   display: flex;
    border-radius: 50%;
-   border-color: black solid;
- }
+   width: 44px;
+   height: 44px;
+   padding: 4px;
+background-color: #ffffff19;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+&:hover{
+background-color: #2196F3;
+color: #FFF;
+}
+}
+
+.form-main-div{
+display: flex;
+flex-direction: column;
+margin-left: 50px;
+}
+
+.label-subscribe{
+   color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+
+.input{
+   border-radius: 4px;
+   border: 1px solid rgba(255, 255, 255, 0.30);
+   background: rgba(33, 150, 243, 0.00);
+   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+ width: 358px;
+ height: 35px;
+ margin-top: 20px;
+
+}
+
+.button-subscribe{
+   color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.96px;
+height: 31px;
+margin-top: 38px;
+margin-left: 12px;
+padding-left: 15px;
+background-color: #2196F3;
+border-radius: 4px;
+fill: #FFF;
+}
+
+.svg-subscribe{
+   padding-top: 7px;
+}
+
+

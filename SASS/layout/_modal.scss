@@ -81,6 +81,14 @@ margin-bottom: 30px;
 
 .modal-btn{
   display: flex;
+  background-color: #2196F3;
+  color: #FFF;
+  padding: 2px 17px;
+  font-size: 8px;
+  font-family: Roboto;
+  line-height: 30px; /* 187.5% */
+letter-spacing: 0.96px;
+border-radius: 4px;
 }
 
 .modal-label{
@@ -125,6 +133,7 @@ height: 120px;
 padding: 12px 16px;
 }
 
-
-
-
+.modal-button-container{
+display: flex;
+justify-content: center;
+}

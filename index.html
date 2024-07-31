@@ -90,7 +90,7 @@
             <li class="features-list-item-fourth">
               <div class="features-list-item">
                 <svg height="70" width="65" class="features-img" fill="#000000">
-                  <use href="./images/sprite.svg#icon-astronaut-1-1"></use>
+                  <use href="./images/sprite.svg#icon-antenna-1-1"></use>
                 </svg>
               </div>
               <h2 class="features-list-title">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
@@ -104,7 +104,7 @@
             <li class="features-list-item-fourth">
               <div class="features-list-item">
                 <svg height="70" width="65" class="features-img" fill="#000000">
-                  <use href="./images/sprite.svg#icon-astronaut-1-1"></use>
+                  <use href="./images/sprite.svg#icon-clock-1-1"></use>
                 </svg>
               </div>
               <h2 class="features-list-title">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
@@ -118,7 +118,7 @@
             <li class="features-list-item-fourth">
               <div class="features-list-item">
                 <svg height="70" width="65" class="features-img" fill="#000000">
-                  <use href="./images/sprite.svg#icon-astronaut-1-1"></use>
+                  <use href="./images/sprite.svg#icon-diagram-1-1"></use>
                 </svg>
               </div>
               <h2 class="features-list-title">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
@@ -388,28 +388,28 @@
       <section class="section-clients">
         <p class="client-para">Постійні клієнти</p>
         <ul class="client-list">
-          <li>
+          <li class="client-item">
             <a href="">
               <svg class="client-svg-list" width="106" height="60">
                 <use href="./images/sprite.svg#icon-logo-1"></use>
               </svg>
             </a>
           </li>
-          <li>
+          <li class="client-item">
             <a href="">
               <svg class="client-svg-list" width="106" height="60">
                 <use href="./images/sprite.svg#icon-logo-2"></use>
               </svg>
             </a>
           </li>
-          <li>
+          <li class="client-item">
             <a href="">
               <svg class="client-svg-list" width="106" height="60">
                 <use href="./images/sprite.svg#icon-logo-3"></use>
               </svg>
             </a>
           </li>
-          <li>
+          <li class="client-item">
             <a href="">
               <svg class="client-svg-list" width="106" height="60">
                 <use href="./images/sprite.svg#icon-logo-4"></use>
@@ -417,7 +417,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="client-item">
             <a href="">
               <svg class="client-svg-list" width="106" height="60">
                 <use href="./images/sprite.svg#icon-logo-5"></use>
@@ -425,7 +425,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="client-item">
             <a href="">
               <svg class="client-svg-list" width="106" height="60">
                 <use href="./images/sprite.svg#icon-logo-6"></use>
@@ -437,9 +437,10 @@
     </main>
 
     <footer class="footer">
-      <a href="" class="footer-logo"
-        >Web<span class="footer-studio">Studio</span></a
-      >
+      <div class="footer-div">
+      <a href="" class="footer-logo">Web
+        <span class="footer-studio">Studio</span>
+      </a>
       <ul class="address-list">
         <li class="address-list-item1">
           <a
@@ -456,40 +457,58 @@
           <a href="tell:" class="address-list-link">+38 096 111 11 11</a>
         </li>
       </ul>
+      </div>
       <div class="footer-idk">
-        <ul class="footer-list">
+        <div class="footer-list">
           <p class="footer-parag">приєднуйтесь</p>
           <div class="footer-special-list"></div>
-        </ul>
+        </div>
         <ul class="footer-list">
-          <li>
-            <svg width="35px" class="footer-item">
+          <li class="footer-list-class">
+            <svg width="20px" height="20px" class="footer-item">
               <use href="./images/sprite.svg#icon-instagram-2-1"></use>
             </svg>
           </li>
-          <li>
-            <svg width="35px" class="footer-item">
+          <li class="footer-list-class">
+            <svg width="20px" height="20px" class="footer-item">
               <use href="./images/sprite.svg#icon-twitter-1-1"></use>
             </svg>
           </li>
-          <li>
-            <svg width="35px" class="footer-item">
+          <li class="footer-list-class">
+            <svg width="20px" height="20px" class="footer-item">
               <use href="./images/sprite.svg#icon-facebook-1-1"></use>
             </svg>
           </li>
           <li class="footer-list-class">
-            <svg width="35px" class="footer-item">
+            <svg width="20px" height="20px" class="footer-item">
               <use href="./images/sprite.svg#icon-linkedin-1-1"></use>
             </svg>
           </li>
         </ul>
+      </div>
+      <form action="" class="form">
+        <div class="form-main-div">
+        <label for="subscribe" class="label-subscribe">Підпишіться на розсилку</label>
+        <input type="text" class="input">
+      </div>
+      </form>
+      <div class="form-div">
+       <button class="button-subscribe">
+        Підписатися
+       <svg class="svg-subscribe" width="20px" height="20px">
+        <use href="./images/sprite.svg#icon-send1"></use>
+       </svg>
+      </button>
       </div>
     </footer>
 
     <!--     ==============modal-window=============== -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
+        <div class="modal-button-container">
         <button class="modal-btn" data-close-modal>Закрити</button>
+      </div>
+        <div>
         <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
         <form class="formular">
           <label class="modal-label">
@@ -534,6 +553,7 @@
           <button type="submit" class="submit-button">Відправити</button>
         </form>
       </div>
+    </div>
     </div>
     <script src="./js/modal.js"></script>
   </body>

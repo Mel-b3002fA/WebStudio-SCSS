@@ -7,13 +7,7 @@
 
  .section-team-title{
     color: #212121;
- text-align: center;
- font-family: Roboto;
- font-size: 36px;
- font-style: normal;
- font-weight: 700;
- line-height: normal;
- letter-spacing: 1.08px;
+    @include headline;
  }
 
 
@@ -67,15 +61,7 @@
  }
  
  .team-list-desc{
-    color: #757575;
- text-align: center;
- font-family: Roboto;
- font-size: 16px;
- font-style: normal;
- font-weight: 400;
- line-height: normal;
- letter-spacing: 0.48px;
- margin-top: 10px;
+   @include team-descr;
  }
  
  .team-list-img{
