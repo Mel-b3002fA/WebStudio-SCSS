@@ -1,15 +1,14 @@
 .header-wrap{
     display: flex;
-    gap: 93px;
+/*     gap: 93px; */
     align-items: center;
- 
  }
 
 
 .nav-list{
     display: flex;
-    gap: 50px;
-    
+    column-gap: 50px;
+    margin-left: 93px;
  }
 
  .nav-list-item{
@@ -27,13 +26,18 @@
 
 .contacts-list{
     display: flex;
-    gap: 50px;
+    column-gap: 50px;
     margin-left: auto;
  }
  
  .contacts-list-link{
     display: flex;
-    gap: 10px;
+    column-gap: 10px;
+    align-items: center;
+ }
+
+ .contacts-list-link:hover .svg-header{
+   fill: #2196F3;
  }
  
  .contacts-list-item{
@@ -43,8 +47,6 @@
     line-height: normal;
     letter-spacing: 0.28px;
     display: flex;
-
-    align-items: baseline;
  }
  
   .contact-wrap{
@@ -74,7 +76,7 @@
     gap: 8px;
     margin-top: 94px;
     justify-content: center;
-    flex-direction: row;
+    /* flex-direction: row; */
     margin-bottom: 50px;
     
  }
@@ -99,6 +101,8 @@
  
  #icon-envelope:hover{
     fill: #2196F3;
- 
  }
+
+
+
 
