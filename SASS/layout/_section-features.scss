@@ -24,6 +24,8 @@ column-count: 1;
 .features-list-title{
 margin-bottom: 10px;
 @include headline;
+/* padding-top: 10px; */
+/* font-size: 14px; */
 }
   
 .features-list-desc{
@@ -44,13 +46,14 @@ margin-right: 30px;
 
 .features-img{
 background-color: #F5F4FA;
-margin-bottom: 30px;
 border-radius: 4px;
+margin-bottom: 1px;
 fill: #212121;
 }
 
 .features-list-item{
 padding: 20px 100px;
 background-color: #F5F4FA;
+margin-bottom: 30px;
 }
  
